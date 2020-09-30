@@ -3,7 +3,7 @@
 先下载ojdbc7.jar,放到系统默认的用户目录下，也就是cmd窗口打开后默认的路径。把下载好的jar名字改为ojdbc7-12.1.0.2，与项目中使用的版本号要一致。
 
 执行下面命令：
-mvn install:install-file -Dfile=.../ojdbc7-12.1.0.2.jar  -DgroupId=com.oracle -DartifactId=ojdbc7 -
+mvn install:install-file -Dfile=本地jar路径/ojdbc7-12.1.0.2.jar  -DgroupId=com.oracle -DartifactId=ojdbc7 -
 Dversion=12.1.0.2  -Dpackaging=jar
 
 -Dfile是下载后本地的jar的路径。
