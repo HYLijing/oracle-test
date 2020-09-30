@@ -15,4 +15,8 @@ public interface UserService extends IService<User> {
     User findUserById(int id);
 
     List<User> selectList(User user);
+
+    void test();
+
+
 }
